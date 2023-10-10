@@ -1,0 +1,71 @@
+/* CSS */
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  main {
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  section {
+    padding: 20px 0;
+  }
+  
+  #hero {
+    background-image: url(https://i.imgur.com/kX7PMal.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #hero img {
+    width: 200px;
+    margin: 0 auto;
+  }
+  
+  #sign-up {
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  #popular-movies,
+  #popular-shows {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #popular-movies ul,
+  #popular-shows ul {
+    list-style: none;
+  }
+  
+  #popular-movies li,
+  #popular-shows li {
+    width: 200px;
+    margin: 0 10px;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
